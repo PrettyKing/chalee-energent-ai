@@ -204,7 +204,7 @@ jobs:
         VITE_API_BASE_URL: https://api-preview.energent.ai
     
     - name: Deploy to Netlify
-      uses: nwtgck/actions-netlify@v2.1
+      uses: nwtgck/actions-netlify@v3.0
       with:
         publish-dir: './dist'
         production-deploy: false
@@ -241,7 +241,7 @@ jobs:
         VITE_API_BASE_URL: https://api.energent.ai
     
     - name: Deploy to Production
-      uses: nwtgck/actions-netlify@v2.1
+      uses: nwtgck/actions-netlify@v3.0
       with:
         publish-dir: './dist'
         production-deploy: true
